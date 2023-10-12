@@ -51,5 +51,5 @@ ORDER BY CustoDpto DESC;
 
 ##Lider Do Departamento com maior gasto
 
-SELECT funcionario, departamento, UPPER(lider) FROM listagem_atestados 
+SELECT funcionario, departamento, lider FROM listagem_atestados 
 WHERE lider != '' AND departamento = 'ANALISTA INFORMACOES GERENCIAIS II'
